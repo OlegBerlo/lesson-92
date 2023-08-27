@@ -55,3 +55,41 @@ body {
   line-height: 50px;
   font-size: 21px;
 }
+.search-input {
+  width: 160px;
+  padding-left: 15px;
+  font-size: 21px;
+  color: #2c71b8;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.search-btn {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: #2c71b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  outline: none;
+  border: none;
+  background-image: url("search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+::placeholder {
+  font-size: 21px;
+  color: #2c71b8;
+  font-family: "Roboto", sans-serif;
+}
+.cart {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
